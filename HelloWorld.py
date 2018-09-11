@@ -1,0 +1,7 @@
+print("Hello World")
+print("Thanos Car")
+print("Big Wheel")
+print("Dab")
+print("Fam God")
+print("Go Green")
+print("Do you know how to speak Sugma")
