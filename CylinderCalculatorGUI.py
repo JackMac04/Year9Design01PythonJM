@@ -10,11 +10,15 @@ def submit():
 	v = round(v,3)
 
 	output.config(state="normal")
-	output.insert(tk.INSERT,v)
+
+
+	outputValue = "Given\nradius:"+str(r)+"units\nheight:"+str(h)+"units\nThe volume is:"+str(v)+"units\n\n"
+
+	output.insert(tk.INSERT,outputValue)
 	out.config(state="disable")
 
 
-root = tk.Tk()
+root = tk.Tk()  
 root.title("Volume of a Cylinder")
 
 labr = tk.Label(root, text="radius")
