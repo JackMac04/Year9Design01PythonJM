@@ -14,6 +14,7 @@ def submit():
 
 	outputValue = "Given\nradius:"+str(r)+"units\nheight:"+str(h)+"units\nThe volume is:"+str(v)+"units\n\n"
 
+	out.delete(1.0,tk.END)
 	output.insert(tk.INSERT,outputValue)
 	out.config(state="disable")
 
